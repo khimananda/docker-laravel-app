@@ -1,3 +1,9 @@
+## Just to run this application follow below
+- cp .env.example  .env
+- docker-compose up -d
+#### copy and set key in .env file
+- docker-compose exec app php artisan key:generate --show  
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
